@@ -31,7 +31,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Generate daily EPUB
-        run: python src/main.py
+        run: python src/build.py
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
