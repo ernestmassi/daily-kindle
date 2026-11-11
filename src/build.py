@@ -17,7 +17,7 @@ import trafilatura
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'public'
+OUT = ROOT / 'output'
 TZ = dt.timezone(dt.timedelta(hours=-3))
 logging.basicConfig(level=logging.INFO, format='%(levelname)s %(message)s')
 SESSION = requests.Session()
