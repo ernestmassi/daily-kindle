@@ -1,0 +1,7 @@
+title: Kindle Daily
+max_articles: 10
+feeds:
+  - name: NASA
+    url: https://www.nasa.gov/feed/
+  - name: 3D Printing Industry
+    url: https://3dprintingindustry.com/feed/

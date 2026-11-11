@@ -1,0 +1,5 @@
+services:
+  kindle-daily:
+    build: .
+    volumes:
+      - ./output:/app/output

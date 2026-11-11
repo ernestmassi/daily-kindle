@@ -1,0 +1,5 @@
+feedparser>=6.0,<7
+requests>=2.31,<3
+trafilatura>=1.12,<3
+EbookLib>=0.18,<1
+PyYAML>=6,<7
